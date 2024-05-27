@@ -1,0 +1,6 @@
+*.o
+tcl
+vec
+perf.data*
+*.pcm
+dict.cpp
