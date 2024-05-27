@@ -13,6 +13,7 @@ struct MyPoint {
   int x, y, z;
   MyPoint(int x_, int y_, int z_) : x{x_}, y{y_}, z{z_} {}
 #ifdef roottcl
+  ~MyPoint() override = default;
   ClassDefOverride(MyPoint, 1);
 #endif
 };
